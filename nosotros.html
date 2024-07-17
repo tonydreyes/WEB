@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros - ORGM</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            overflow-x: hidden;
+        }
+        #background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .scrollable-content {
+            max-height: calc(100vh - 80px); /* Adjust based on header and footer height */
+            overflow-y: auto;
+            padding: 20px;
+        }
+        .executive-photos {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .executive-photos img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .executive-photos h4 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="background">
+        <canvas id="constellation-canvas"></canvas>
+    </div>
+    <header>
+        <img src="images/ORGM LOGO.svg" alt="ORGM Logo" id="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html" target="_self">Inicio</a></li>
+                <li><a href="nosotros.html" target="_self">Nosotros</a></li>
+                <li><a href="servicios.html" target="_self">Servicios</a></li>
+                <li><a href="mantenimiento.html" target="_self">Mantenimiento</a></li>
+                <li><a href="galeria.html" target="_self">Galería</a></li>
+                <li><a href="sm.html" target="_self">SM</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="scrollable-content">
+            <section id="nosotros">
+                <h1>Nosotros</h1>
+                <h3>¿Quiénes somos?</h3>
+                <p>ORGM es una empresa de ingeniería comprometida con el óptimo resultado de los proyectos. Nuestra empresa brinda servicios de Diseño, Asesoría y Construcción de Proyectos Electromecánicos y Civiles, laboramos bajo los principios de optimización, procurando maximizar la inversión de nuestros clientes.</p>
+                <p>Nuestro objetivo principal es ser la empresa de mejor calidad y eficiencia de República Dominicana en el desarrollo de ingeniería para la ejecución y mantenimiento de proyectos de infraestructura electromecánica.</p>
+
+                <h3>Nuestros Valores</h3>
+                <p>Estos valores representan el respeto que tenemos a su tiempo y compromisos con sus objetivos, para fomentar el crecimiento, desarrollo, confianza y disciplina necesaria para alcanzar el éxito.</p>
+                <ul>
+                    <li>Eficacia</li>
+                    <li>Responsabilidad</li>
+                    <li>Seriedad</li>
+                    <li>Compromiso</li>
+                    <li>Confianza</li>
+                    <li>Confidencialidad</li>
+                    <li>Crecimiento</li>
+                    <li>Honestidad</li>
+                    <li>Calidad</li>
+                    <li>Puntualidad</li>
+                </ul>
+
+                <p>Contamos con herramientas especializadas de análisis, diseño y presupuestos para dar al cliente una rápida y eficiente respuesta a las necesidades de desarrollo de proyectos de ingeniería.</p>
+                <p>Contamos también con normativas internacionales para el desarrollo de ingenierías para cumplir con requerimientos internacionales para el desarrollo de proyectos con requerimientos de alto nivel.</p>
+                <p>Somos miembros activos de la IEEE/ANSI y mantenemos normativa vigente en AENOR, para siempre estar a la vanguardia de las últimas actualizaciones de las normativas para los servicios que ofrecemos.</p>
+
+                <h3>Misión</h3>
+                <p>Brindar soluciones de excelencia en el diseño, asesoría y construcción de proyectos electromecánicos y civiles ofreciendo una solución orientada al cumplimiento de las expectativas de nuestros clientes, garantizando la calidad de los proyectos a través del mejoramiento continuo, construyendo la confianza mediante la implementación de las diferentes normativas orientadas a la innovación y la búsqueda que impulse la optimización y la excelencia.</p>
+
+                <h3>Visión</h3>
+                <p>Ser una empresa con altos estándares de optimización en cuanto al cumplimiento, la calidad en servicios en Diseño, Asesoría y construcción de proyectos Electromecánicos y Civiles, y con capacidad de ofrecer a nuestros clientes soluciones eficientes e innovadoras orientadas al cumplimiento de los objetivos de sus proyectos.</p>
+
+                <p>Contamos con personal altamente calificado y con amplia experiencia en todas las áreas de servicios que brindamos, las cuales están calificadas bajo las diferentes normas nacionales e internacionales.</p>
+
+                <h3>Estructura</h3>
+                <p>Contamos con varias áreas para el desarrollo de proyectos. Estas áreas se dividen a continuación:</p>
+                <ul>
+                    <li>Diseño</li>
+                    <li>Mantenimiento</li>
+                    <li>Instalación Electromecánica</li>
+                    <li>Construcción de Obra Civil</li>
+                    <li>Gestión</li>
+                    <li>Levantamientos de Sistemas Electromecánicos</li>
+                    <li>Estudios Energéticos</li>
+                    <li>Suministro de Equipos y Materiales</li>
+                </ul>
+
+                <h3>Ejecutivos</h3>
+                <div class="executive-photos">
+                    <div>
+                        <img src="images/ejecutivo1.jpg" alt="Ejecutivo 1" onclick="window.open('https://www.linkedin.com/in/tony-d-reyes-v-573562240/', '_blank')">
+                		<div onclick="window.open('https://www.linkedin.com/in/tony-d-reyes-v-573562240/', '_blank')">TONY REYES</div>  
+
+                        <h4>Encargado de Negocios</h4>
+                    </div>
+                    <div>
+                        <img src="images/ejecutivo2.jpg" alt="Ejecutivo 2" onclick="window.open('https://www.linkedin.com/in/osmar-garcia-70968969/', '_blank')">
+                		<div onclick="window.open('https://www.linkedin.com/in/osmar-garcia-70968969/', '_blank')">OSMAR GARCÍA</div>  
+                        <h4>Responsable de Diseño</h4>
+                    </div>
+                    <div>
+                        <img src="images/ejecutivo3.jpg" alt="Ejecutivo 3">
+                		<div>JOSÉ ARQUIMEDES</div>  
+                        <h4>Jefe de Ingeniería</h4>
+                    </div>
+                	</div>
+
+                	<p>¿Te interesa conocer más sobre nosotros? Envía un correo a <a href="mailto:tonydreyes@or-gm.com">info@or-gm.com</a> pidiendo información sobre experiencias en proyectos realizados y capacidad del personal involucrado en los servicios que ofrecemos.</p>
+
+				<p>
+
+				</p>
+                	<footer>
+        			<p>&copy; 2024 ORGM. Todos los derechos reservados.</p>
+    			
+
+			</footer>
+				<p>
+
+				</p>
+		</section>
+        </div>
+    </main>
+
+
+
+    <script src="js/constellations.js"></script>
+</body>
+</html>

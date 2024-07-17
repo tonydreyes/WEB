@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mantenimiento - ORGM</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            overflow-x: hidden;
+        }
+        #background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .scrollable-content {
+            max-height: calc(100vh - 80px); /* Adjust based on header and footer height */
+            overflow-y: auto;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="background">
+        <canvas id="constellation-canvas"></canvas>
+    </div>
+    <header>
+        <img src="images/ORGM LOGO.svg" alt="ORGM Logo" id="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html" target="_self">Inicio</a></li>
+                <li><a href="nosotros.html" target="_self">Nosotros</a></li>
+                <li><a href="servicios.html" target="_self">Servicios</a></li>
+                <li><a href="mantenimiento.html" target="_self">Mantenimiento</a></li>
+                <li><a href="galeria.html" target="_self">Galería</a></li>
+                <li><a href="sm.html" target="_self">SM</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="scrollable-content">
+        <section id="mantenimiento">
+            </ul>
+            <h1>Mantenimientos</h1>
+            <h2>Servicios Dirigidos a Subestaciones, Calderas, Plantas Eléctricas y Sistemas de Refrigeración</h2>
+            <ul>
+                <li>Mantenimiento correctivo.</li>
+                <li>Mantenimiento preventivo (mantenimiento programado).</li>
+                <li>Mantenimiento predictivo o evaluación diagnostica de sistemas eléctricos de potencia.</li>
+            </ul>
+				<p>
+
+				</p>
+    		<footer>
+        		<p>&copy; 2024 ORGM. Todos los derechos reservados.</p>
+    		</footer>
+
+        </section>
+    </main>
+
+
+
+    <script src="js/constellations.js"></script>
+</body>
+</html>
